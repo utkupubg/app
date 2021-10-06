@@ -5,7 +5,7 @@ exports.run = async (client ,message, args) =>{
   
   const embed = new Discord.MessageEmbed()
   .setTitle("Pingim")
-  .setColor("RANDOM")
+  .setColor("BLUE")
   .setDescription(`${client.ws.ping} ms`)
   message.channel.send(embed)
 };
@@ -19,6 +19,6 @@ exports.conf = {
 exports.help = {
  name: 'ping',
  description: 'Botun Pingine Bakarsın',
- usage: '!ping'
+ usage: 'm!ping'
 };
  

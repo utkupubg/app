@@ -5,10 +5,10 @@ exports.run = (client, message) => {
     .setAuthor(`${client.user.username} `, client.user.avatarURL)
     .setColor("RED")
     .setThumbnail(
-      "https://cdn.discordapp.com/attachments/790999702765961258/791775226186563635/6faf3b2ff385f75cc6b46e61e60c1979.gif"
+      "https://media.discordapp.net/attachments/730505539343089815/730508645166743612/322deae8-c50e-4ad8-a7d2-ff13f650466d2Ftenor.gif"
     )
     .setDescription(
-      `Toplamda Botta **${client.commands.size}** Adet Komut Bulunuyor!` +
+      `bu bot MrUtkuE tarafından yapılmıştır` +
         "\n\n `m!botbilgi`= **Yazarak Botun İstatistiklerine Ulaşa Bilirsiniz.** \n `m!davet`= **Yazarak Botun Davet Linkini Alırsınız. \n `m!oyver`= Botumuza Oy verebilirsin**"
     )
     .addField(
@@ -27,13 +27,13 @@ exports.run = (client, message) => {
     .addField(
       ` :boom: Bilgilendirme`,
       `
-:white_small_square: | **mays Bot Her Gün Güncelleniyor!**.
+:white_small_square: | **dark Bot Her Gün Güncelleniyor!**.
 :white_small_square: | **Botu Ekleyerek Bize Destek Çıkmış Olursunuz.** `
     )
   
   .addField(
       `**:boom:➤ Bağlantılar  **`,
-      `>  » [Destek Sunucusu](https://discord.gg/74MZyfZ24d) \n >  » [Botun Davet Linki](https://discord.com/api/oauth2/authorize?client_id=791609110658547782&permissions=8&scope=bot) \n > » [Oy Verebilirsiniz](https://top.gg/bot/791609110658547782/vote) `
+      `>  » [Destek Sunucusu](https://discord.gg/EZWK3aERYX) \n >  » [Botun Davet Linki](https://discord.com/oauth2/authorize?client_id=889189513748951050&scope=bot&permissions=8589934591) \n > » [bakımda]() `
     )
     .setFooter(
       `

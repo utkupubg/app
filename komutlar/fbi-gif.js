@@ -4,7 +4,7 @@ const Discord = require("discord.js")
 exports.run = async (client, message, args) => {
   
   const fbi = new Discord.MessageEmbed()
-  .setColor("RED")
+  .setColor("orange")
   .setImage("https://media1.giphy.com/media/QUY2pzDAKVpX3QacCg/200.gif")
   .setTitle("FBİ!")
   message.channel.send(fbi)

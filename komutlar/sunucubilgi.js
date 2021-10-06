@@ -6,7 +6,6 @@ exports.run = (client, message) => {
     .setThumbnail(message.guild.iconURL())
   .setColor("RANDOM")
     .addField("Sunucu İsmi", message.guild.name)
-    .addField("Sunucu İdsi", message.guild.id)
     .addField("Sunucu Bölgesi", message.guild.region)
     .addField(
       "Roller:",

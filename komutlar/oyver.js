@@ -5,8 +5,8 @@ exports.run = (client, message, args) => {
   const davet = new Discord.MessageEmbed()
   .setColor("RANDOM")
   .setTitle("Bana Oyver ")
-  .setDescription("[__**Botlist**__](https://top.gg/bot/791609110658547782/vote)")
-  .setFooter('Botumuza Oy Verdiğiniz İçin Şimdiden Teşekkür Ederim..')
+  .setDescription("[__**Botlist**__]()")
+  .setFooter('bu komut deaktiftir')
   message.channel.send(davet)
 }
 

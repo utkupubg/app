@@ -36,7 +36,7 @@ client.on("message", message => {
 client.on("ready", () => {
   console.log(`Bütün komutlar başarıyla yüklendi!`);
   client.user.setStatus("dnd");
-  client.user.setActivity('video like atın abone olun');
+  client.user.setActivity('Beni MrUtkuE yaptı');
 })
 
 
@@ -134,7 +134,7 @@ client.on("message", async msg => {
     
     let i = await db.fetch(`reklamFiltre_${msg.guild.id}`)  
           if (i == 'acik') {
-              const reklam = ["https://","http://","discord.gg"];
+              const reklam = ["https://","http://","discord.gg","www."];
               if (reklam.some(word => msg.content.toLowerCase().includes(word))) {
                 try {
                   if (!msg.member.hasPermission("MANAGE_GUILD")) {
@@ -200,7 +200,6 @@ client.on("message", async msg => {
     if (!i) return;
  
     });
-
 client.login(ayarlar.token)
 
 

@@ -23,7 +23,7 @@ exports.conf = {
 }
 
 exports.help = {
-    name: 'red',
+    name: 'kırmızı',
     description: 'Yazdığınız yazıyı bannera çevirir.',
-    usage: 'red <yazı>'
+    usage: 'kırmızı <yazı>'
 }

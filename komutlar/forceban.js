@@ -26,7 +26,7 @@ module.exports.run = async (client, message, args) => {
                        else {
                            user = await client.fetchUser(member);
                        }
-                       message.channel.send(`<@!${user.id}> adlı kullanıcı banlandı <a:ban:613373970984468491>`);
+                       message.channel.send(`<@!${user.id}> adlı kullanıcı banlandı <a 613373970984468491>`);
                    })
                    .catch(error => {
                        message.channel.send(`:x: Bir Hata Oluştu`);

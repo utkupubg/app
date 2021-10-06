@@ -15,7 +15,7 @@ exports.run = async (client, message, args) => {
 
  const avatar = new Discord.MessageEmbed()
         .setColor("RANDOM")
-       .setAuthor("» Buyur Avatarın,")
+       .setAuthor("» Al Sana Avatar")
         .setImage(user.avatarURL())
     message.channel.send(avatar)
     
